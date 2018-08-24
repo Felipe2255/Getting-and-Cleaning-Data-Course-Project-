@@ -97,4 +97,4 @@ View(groupedmeans)
 dim(groupedmeans)
 
 #save this last database as a tidyData.txt file
-write.csv(groupedmeans, "tidyData.txt")
+write.csv(groupedmeans, "tidyData.txt", row.names = FALSE)
